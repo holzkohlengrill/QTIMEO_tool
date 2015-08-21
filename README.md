@@ -1,15 +1,17 @@
 # QTIMEO_tool
 QTIMEO_tool (Ubuntu-like systems only)
->> pre-alpha version
+> pre-alpha version
 
-Description
+Description (target state)
 ===============
 Simple Video/Image Sequence Recorder/Extractor
 
-//- Extracts image sequence from videos (currently only .mp4 supported)
-//- Saves image sequences (currently .png-format) from live view
-//- Live view
-
+- Extracts image sequence from videos (currently only .mp4 supported)
+- Saves image sequences (currently only .png-format) from live view
+- Live view
+- Set arbitrary stereo pairs
+- Capture videos or image sequences from stereo or monocular cameras
+- Camera synchronisation (XIMEA hardware trigger + almost synchronisation for every other camera supported by OpenCV)
 
 Requires
 ==============
