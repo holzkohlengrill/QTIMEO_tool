@@ -1,5 +1,6 @@
 # QTIMEO_tool
 QTIMEO_tool (Ubuntu-like systems only)
+>> pre-alpha version
 
 Description
 ===============
