@@ -1,20 +1,24 @@
-QT       += core
-QT       += gui
-QT       += multimedia
-QT       += multimediawidgets
-QT       += opengl
-QT       += xml
+#-------------------------------------------------
+#
+# Project created by QtCreator 2015-08-25T11:16:22
+#
+#-------------------------------------------------
+
+QT       += \
+	core \
+	gui \
+
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = cam-capture
+TARGET = qtimeo
 TEMPLATE = app
 
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    imeovid.cpp \
-    capXIMEA.cpp
+    qtimeovid.cpp \
+    qtimeoGui.cpp
 
 INCLUDEPATH += \
     /usr/local/include/opencv
@@ -38,5 +42,5 @@ LIBS += \
     -lopencv_flann
 
 HEADERS += \
-    imeovid.h \
-    capXIMEA.h
+    qtimeovid.h \
+    qtimeoGui.h
